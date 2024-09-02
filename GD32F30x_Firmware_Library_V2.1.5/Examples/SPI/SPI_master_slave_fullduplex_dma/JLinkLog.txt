@@ -1,0 +1,141 @@
+T439C 003:371.809   SEGGER J-Link V7.98f Log File
+T439C 003:371.888   DLL Compiled: Aug 29 2024 10:13:19
+T439C 003:371.902   Logging started @ 2024-09-01 12:20
+T439C 003:371.912   Process: C:\Keil_v5\UV4\UV4.exe
+T439C 003:371.923 - 14.719ms
+T439C 003:371.938 JLINK_SetWarnOutHandler(...)
+T439C 003:371.949 - 0.010ms
+T439C 003:371.962 JLINK_OpenEx(...)
+T439C 003:375.473   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T439C 003:376.422   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T439C 003:376.633   Decompressing FW timestamp took 176 us
+T439C 003:383.187   Hardware: V9.60
+T439C 003:383.276   S/N: 69668817
+T439C 003:383.336   OEM: SEGGER
+T439C 003:383.397   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T439C 003:384.842   Bootloader: (Could not read)
+T439C 003:386.511   TELNET listener socket opened on port 19021
+T439C 003:405.532   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T439C 003:406.206   WEBSRV Webserver running on local port 19080
+T439C 003:406.764   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T439C 003:407.025   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V798f\JLinkGUIServer.exe
+T439C 003:407.176   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V798f\JLinkGUIServer.exe
+T439C 003:414.218   J-Link GUI Server info: "J-Link GUI server V7.98f "
+T439C 003:415.197 - 43.232ms returns "O.K."
+T439C 003:415.280 JLINK_GetEmuCaps()
+T439C 003:415.319 - 0.037ms returns 0xB9FF7BBF
+T439C 003:415.369 JLINK_TIF_GetAvailable(...)
+T439C 003:415.723 - 0.353ms
+T439C 003:415.790 JLINK_SetErrorOutHandler(...)
+T439C 003:415.815 - 0.024ms
+T439C 003:415.872 JLINK_ExecCommand("ProjectFile = "C:\GD32F303RCT6\GD32F30x_Firmware_Library_V2.1.5\GD32F30x_Firmware_Library_V2.1.5\Examples\SPI\SPI_master_slave_fullduplex_dma\JLinkSettings.ini"", ...). 
+T439C 003:421.410 - 5.537ms returns 0x00
+T439C 003:421.931 JLINK_ExecCommand("Device = GD32F303RC", ...). 
+T439C 003:422.140   Flash bank @ 0x1FFFF800: SFL: Parsing sectorization info from ELF file
+T439C 003:422.199     FlashDevice.SectorInfo[0]: .SectorSize = 0x00000010, .SectorStartAddr = 0x00000000
+T439C 003:422.275   Device "GD32F303RC" selected.
+T439C 003:422.862 - 0.869ms returns 0x00
+T439C 003:422.908 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T439C 003:422.951   ERROR: Unknown command
+T439C 003:422.994 - 0.048ms returns 0x01
+T439C 003:423.029 JLINK_GetHardwareVersion()
+T439C 003:423.059 - 0.029ms returns 96000
+T439C 003:423.097 JLINK_GetDLLVersion()
+T439C 003:423.125 - 0.027ms returns 79806
+T439C 003:423.158 JLINK_GetOEMString(...)
+T439C 003:423.192 JLINK_GetFirmwareString(...)
+T439C 003:423.218 - 0.026ms
+T439C 003:423.258 JLINK_GetDLLVersion()
+T439C 003:423.285 - 0.026ms returns 79806
+T439C 003:423.319 JLINK_GetCompileDateTime()
+T439C 003:423.348 - 0.029ms
+T439C 003:423.387 JLINK_GetFirmwareString(...)
+T439C 003:423.416 - 0.029ms
+T439C 003:423.454 JLINK_GetHardwareVersion()
+T439C 003:423.484 - 0.028ms returns 96000
+T439C 003:423.518 JLINK_GetSN()
+T439C 003:423.546 - 0.027ms returns 69668817
+T439C 003:423.582 JLINK_GetOEMString(...)
+T439C 003:423.628 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T439C 003:425.031 - 1.403ms returns 0x00
+T439C 003:425.078 JLINK_HasError()
+T439C 003:425.104 JLINK_SetSpeed(5000)
+T439C 003:425.227 - 0.122ms
+T439C 003:425.791 JLINK_HasError()
+T439C 003:425.828 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T439C 003:425.849 - 0.021ms returns JLINKARM_RESET_TYPE_NORMAL
+T439C 003:425.872 JLINK_Reset()
+T439C 003:426.198   InitTarget() start
+T439C 003:426.239    J-Link Script File: Executing InitTarget()
+T439C 003:927.671   DAP initialized successfully.
+T439C 003:928.433   Secured GD32 device detected.
+For debugger connection the device needs to be unsecured.
+Note: Unsecuring will erase the entire device and set the option bytes to default values.
+T439C 003:928.453   Executing default behavior previously saved in the registry.
+T439C 003:928.470   Device will be unsecured now.
+T439C 003:954.954   InitTarget() end - Took 528ms
+T439C 003:956.114   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T439C 003:956.489   Failed to identify target. Resetting via Reset pin and trying again.
+T439C 004:108.212   InitTarget() start
+T439C 004:108.329    J-Link Script File: Executing InitTarget()
+T439C 004:608.359   DAP initialized successfully.
+T439C 004:609.094   Secured GD32 device detected.
+For debugger connection the device needs to be unsecured.
+Note: Unsecuring will erase the entire device and set the option bytes to default values.
+T439C 004:609.114   Executing default behavior previously saved in the registry.
+T439C 004:609.131   Device will be unsecured now.
+T439C 004:635.138   InitTarget() end - Took 526ms
+T439C 004:636.248   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T439C 004:636.578 - 1210.706ms
+T439C 004:636.607 JLINK_GetIdData(pIdData)
+T439C 004:636.813   InitTarget() start
+T439C 004:636.837    J-Link Script File: Executing InitTarget()
+T439C 005:137.857   DAP initialized successfully.
+T439C 005:138.633   Secured GD32 device detected.
+For debugger connection the device needs to be unsecured.
+Note: Unsecuring will erase the entire device and set the option bytes to default values.
+T439C 005:138.654   Executing default behavior previously saved in the registry.
+T439C 005:138.671   Device will be unsecured now.
+T439C 005:167.120   InitTarget() end - Took 530ms
+T439C 005:168.297   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T439C 005:168.695   Failed to identify target. Resetting via Reset pin and trying again.
+T439C 005:319.907   InitTarget() start
+T439C 005:320.105    J-Link Script File: Executing InitTarget()
+T439C 005:820.536   DAP initialized successfully.
+T439C 005:821.381   Secured GD32 device detected.
+For debugger connection the device needs to be unsecured.
+Note: Unsecuring will erase the entire device and set the option bytes to default values.
+T439C 005:821.409   Executing default behavior previously saved in the registry.
+T439C 005:821.426   Device will be unsecured now.
+T439C 005:850.513   InitTarget() end - Took 530ms
+T439C 005:851.760   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T439C 005:852.138 - 1215.530ms
+T439C 005:852.167 JLINK_GetIdData(pIdData)
+T439C 005:852.403   InitTarget() start
+T439C 005:852.426    J-Link Script File: Executing InitTarget()
+T439C 006:353.670   DAP initialized successfully.
+T439C 006:354.397   Secured GD32 device detected.
+For debugger connection the device needs to be unsecured.
+Note: Unsecuring will erase the entire device and set the option bytes to default values.
+T439C 006:354.418   Executing default behavior previously saved in the registry.
+T439C 006:354.437   Device will be unsecured now.
+T439C 006:380.255   InitTarget() end - Took 527ms
+T439C 006:381.463   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T439C 006:381.893   Failed to identify target. Resetting via Reset pin and trying again.
+T439C 006:534.493   InitTarget() start
+T439C 006:534.550    J-Link Script File: Executing InitTarget()
+T439C 007:035.293   DAP initialized successfully.
+T439C 007:036.089   Secured GD32 device detected.
+For debugger connection the device needs to be unsecured.
+Note: Unsecuring will erase the entire device and set the option bytes to default values.
+T439C 007:036.109   Executing default behavior previously saved in the registry.
+T439C 007:036.126   Device will be unsecured now.
+T439C 007:065.353   InitTarget() end - Took 530ms
+T439C 007:066.528   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T439C 007:066.900 - 1214.732ms
+T439C 007:071.437 JLINK_GetFirmwareString(...)
+T439C 007:071.464 - 0.027ms
+T439C 032:555.644 JLINK_Close()
+T439C 032:569.558 - 13.913ms
+T439C 032:569.588   
+T439C 032:569.596   Closed
